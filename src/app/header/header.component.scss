@@ -52,10 +52,11 @@
             }
         }
         .menu_icon{
-            width: 25px;
-            height: 25px;
-            filter: brightness(0) invert(1);
+            width: 80px;
+            height: 80px;
+            // filter: brightness(0) invert(1);
             margin-bottom: 5px;
+            margin-top: 15px;
         }
         .burgerMenu{
             display: flex;
@@ -63,7 +64,7 @@
             justify-content: flex-end;
             margin-bottom: 5px;
             margin-right: 10px;
-            padding-left: 30px;
+            padding-left: 70px;
             width: 25px;
         }
     }

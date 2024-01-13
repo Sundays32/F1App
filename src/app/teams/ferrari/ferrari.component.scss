@@ -9,7 +9,7 @@ $team_background:url(../../../assets/ferrarilogo.png);
 
 
 .teamPage{
-    padding-top: 90px;
+    // padding-top: 90px;
     background-color: $primary_Color;
     height: 3200px;
 }
@@ -22,11 +22,12 @@ $team_background:url(../../../assets/ferrarilogo.png);
     padding: 0%;
 }
 .teamName{
-    height: 400px;
+    height: 490px;
     background-image: $banner_img;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -450px;
+    background-size: 1800px;
+    background-position-y: -480px;
+    background-position-x: -150px;
     position: relative;
 }
 .teamLogo{
@@ -37,7 +38,7 @@ $team_background:url(../../../assets/ferrarilogo.png);
         border-radius: 100px;
         border: $secondaryColor 15px solid;
         position: absolute;
-        top: 40%;
+        top: 55%;
     }
     
 }
@@ -45,13 +46,14 @@ $team_background:url(../../../assets/ferrarilogo.png);
     position: relative;
     h1{
         position: absolute;
-        top: 80%;
+        top: 85%;
         font-weight: 900;
         font-size: 50px;
         color: $secondaryColor;
     }
 }
 .standings{
+    padding-top: 60px;
     img{
         padding-top: 30px;
         width: 100px;

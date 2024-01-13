@@ -1,10 +1,12 @@
 .teamsPage{
-    padding-top: 90px;
+    padding-top: 120px;
     background: linear-gradient(to left,rgba(0, 0, 0, 0.8)0%, rgb(0,0,0,0.8)100%),url(../../assets/checkeredFlag.jpg);
-    height: 800px;
+    height: 830px;
+    padding-left: 20px;
 
     .teams_desc{
         color: #fff;
+        padding-left: 10px;
     }
     .teams_banner{
         padding: 10px 0 0 10px;
@@ -93,6 +95,11 @@
         background-repeat: no-repeat;
         background-position-y:35px ;
         margin-top: 300px;
+        .cardText{
+            h4{
+                margin-left: -20px !important;
+            }
+        }
     }
     .Alfa{
         background-image: url(../../assets/alfaromeologo.jpg);
@@ -101,6 +108,11 @@
         background-position-y: -3.5px;
         background-position-x: -18px;
         margin-top: 340px;
+        .cardText{
+            h4{
+                margin-left: -25px !important;
+            }
+        }
     }
     .Haas{
         background-image: url(../../assets/haasf1logo.png);
