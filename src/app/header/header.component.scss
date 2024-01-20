@@ -69,4 +69,14 @@
         }
     }
     }
+    .sideBar{
+        z-index: 5;
+        width: 20% !important;
+        height: 100%;
+        position: absolute;
+        left: 80%;
+        background-color: #fff;
+        backdrop-filter: blur(10px);
+
+    }
     
