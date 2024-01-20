@@ -12,10 +12,22 @@
         <li>About</li>
       </ul>
     </div>
-    <div class="col-1 burgerMenu">
-      <a href="#"
+    <div class="col-1 burgerMenu" (click)="openSide()">
+      <a
         ><img class="menu_icon" src="../../assets/burger_new.png" alt="menu"
       /></a>
     </div>
   </div>
 </div>
+<!-- <div
+  class="sideBar"
+  *ngIf="sideBVis"
+  (mouseover)="sideBVis = true"
+  (mouseout)="sideBVis = false"
+>
+  <ul class="nav-list">
+    <li><a routerLink="landing-page">Home</a></li>
+    <li><a routerLink="teams-page">Teams</a></li>
+    <li>About</li>
+  </ul>
+</div> -->

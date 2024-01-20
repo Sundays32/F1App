@@ -1,1 +1,198 @@
-<p>haas works!</p>
+<div class="teamPage">
+  <div class="teamName row">
+    <div class="teamLogo col-2">
+      <img src="../../../assets/haaslogo.png" alt="AlfaRomeo logo" />
+    </div>
+    <div class="name col-9">
+      <h1>Moneygram Haas F1 Team</h1>
+    </div>
+  </div>
+  <div class="mainTeam">
+    <div class="team_det">
+      <h3>Team</h3>
+      <p>Meet the team.</p>
+      <div class="teamPrincipal">
+        <h4>Team Principal</h4>
+        <div class="team_img">
+          <img
+            src="../../../assets/ayao-komatsu-haas-f1-team-1.jpg"
+            alt="Ayao"
+          />
+        </div>
+        <p>Ayao Komatsu</p>
+      </div>
+      <div class="teamDrivers row">
+        <h4>Drivers</h4>
+        <div class="dr1 col">
+          <div class="team_img dr1_img">
+            <img src="../../../assets/f1_2023_km_haa_lg.png" alt="kevin" />
+          </div>
+          <p>Kevin Magnussen</p>
+        </div>
+        <div class="dr2 col">
+          <div class="team_img dr2_img">
+            <img src="../../../assets/f1_2023_nh_haa_lg.png" alt="nico" />
+          </div>
+          <p>Nico Hulkenberg</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="backgroundInfo">
+    <div class="info">
+      <h3>Background Information</h3>
+      <h5>
+        Gene Haas established Haas F1 during the early part of Formula 1's
+        turbo-hybrid era. Originally, Haas were set to make their debut in the
+        pinnacle of motorsport in 2015, but this was postponed to the start of
+        the 2016 F1 season.
+      </h5>
+      <p>
+        Guenther Steiner has been Team Principal at Haas since the squad first
+        arrived in the sport, and he is well-known for his charismatic,
+        no-nonsense personality. Steiner became popular with many F1 fans thanks
+        to his appearances on Netflix's Drive To Survive series, where he has
+        often been heard to swear extensively.The team's headquarters are
+        located in Kannapolis, North Carolina, in the United States, alongside
+        sister team and NASCAR entrant Stewart-Haas Racing, though the two
+        outfits are separate entities. Haas also have a forward base in Banbury,
+        UK, for the purpose of turning cars around between races during the
+        European part of the calendar, whilst their power units are supplied by
+        Ferrari in Italy.
+      </p>
+      <p>
+        Haas became the first American constructor to compete in F1 since the
+        unrelated Haas Lola outfit raced in the 1985 and 1986 seasons. The 2016
+        Australian Grand Prix saw Haas make their debut with drivers Romain
+        Grosjean and Esteban Gutierrez, and it went brilliantly.
+      </p>
+      <p>
+        Another remarkable result followed at the Bahrain Grand Prix, when
+        Grosjean finished in fifth place. It was Haas' best result that year,
+        and Grosjean scored all of the team's 29 points as Gutierrez struggled.
+        Nevertheless, it was the best debut for a new Formula 1 team this
+        century.
+      </p>
+      <p>
+        Having finished eighth in the 2016 F1 Constructors' Championship, Haas
+        repeated that feat with Grosjean and former McLaren and Renault driver
+        Kevin Magnussen, who joined the team for the 2017 Formula 1 season.
+      </p>
+      <p>
+        The 2018 Formula 1 season saw Haas often at the front of the midfield
+        battle, only behind Mercedes, Ferrari and Red Bull. It was nearly an
+        incredible beginning to their campaign at that year's Australian Grand
+        Prix.
+      </p>
+      <p>
+        A fuel infringement and an illegal floor led to disqualifications in the
+        United States and Italian Grands Prix respectively, which hampered Haas'
+        chances to beat Renault in the Constructors' Championship. Nevertheless,
+        the team ended the season in fifth, which remains their best F1 campaign
+        to date.
+      </p>
+      <p>
+        Haas had been on a high in 2018, but endured a tough season in 2019 as
+        they struggled to find the optimal tyre working window throughout the
+        year. The Australian Grand Prix went well for the team as Magnussen
+        finished sixth, but that would be Haas' best result of the campaign.The
+        off-track talk became the other big story for Haas as their title
+        sponsor, Rich Energy, caused mayhem. Leading up to the British Grand
+        Prix, the Rich Energy Twitter account announced that the sponsorship
+        deal had been terminated, due to poor performances. This was denied by
+        Haas and Rich Energy's shareholders.
+      </p>
+      <p>
+        Magnussen and Grosjean both left Haas and Formula 1 at the end of 2020.
+        The team instead opted to go for a bold rookie driver pairing for 2021
+        in the form of Mick Schumacher and Nikita Mazepin.Even before the new
+        season had begun, Haas admitted that they were using 2021 as a
+        transitional year and were fully focused on 2022, when new technical
+        regulations are introduced into F1.
+      </p>
+      <p>
+        The 2023 season did not go smoothly for the American F1 team. They
+        finished last in the standings because the car was not competitive
+        enough to contend for points. Haas faced numerous issues with tire wear,
+        causing them to lose ground compared to their competitors. Following the
+        conclusion of the 2023 season, the contract of team principal Günther
+        Steiner was not renewed due to disappointing performances. Ayao Komatsu
+        will assume his role within the Haas F1 Team.
+      </p>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="statTable">
+      <h3>Statistics</h3>
+      <h5>Statistics about the team</h5>
+      <div class="row champ">
+        <div class="col">Total Constructors Championships</div>
+        <div class="col">
+          <span>0</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openCInfo()"
+          /></span>
+          <div class="CInfoBox" [class.visib]="isvisib_C">
+            <p>-</p>
+          </div>
+        </div>
+      </div>
+      <div class="row driverchamps">
+        <div class="col">Total Drivers Championships</div>
+        <div class="col DInfo">
+          <span>0</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openDInfo()"
+          /></span>
+          <div class="DInfoBox" [class.visib]="isvisib_D">
+            <p>-</p>
+          </div>
+        </div>
+      </div>
+      <div class="row wins">
+        <div class="col">Total Race Wins</div>
+        <div class="col">0</div>
+      </div>
+      <div class="row founded">
+        <div class="col">Team Founded</div>
+        <div class="col">2016</div>
+      </div>
+      <div class="row PrevTeam">
+        <div class="col">Previously Known As</div>
+        <div class="col">-</div>
+      </div>
+    </div>
+  </div>
+  <div class="reachout">
+    <div class="reachoutLinks">
+      <div class="reachTitle RO">
+        <h3>Reach out to Haas</h3>
+      </div>
+      <div class="links RO">
+        <a href="https://www.instagram.com/haasf1team/" target="_blank"
+          ><img src="../../../assets/instagram-1-svgrepo-com.svg" alt="insta"
+        /></a>
+        <a href="https://twitter.com/HaasF1Team/" target="_blank"
+          ><img
+            src="../../../assets/twitter-color-svgrepo-com.svg"
+            alt="twitter"
+        /></a>
+        <a href="https://www.facebook.com/haasf1team/" target="_blank"
+          ><img src="../../../assets/facebook-color-svgrepo-com.svg" alt="fb"
+        /></a>
+        <a href="https://www.haasf1team.com/" target="_blank"
+          ><img
+            src="../../../assets/haaslogo.png"
+            alt="website"
+            class="cavalino"
+        /></a>
+      </div>
+    </div>
+  </div>
+</div>

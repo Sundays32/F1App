@@ -7,5 +7,8 @@ import { RouterLink } from '@angular/router';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-
+  sideBVis:boolean=false;
+  openSide(){
+    this.sideBVis=!this.sideBVis;
+  }
 }

@@ -1,1 +1,192 @@
-<p>alfa-romeo works!</p>
+<div class="teamPage">
+  <div class="teamName row">
+    <div class="teamLogo col-2">
+      <img
+        src="../../../assets/alfaromeologo - Copy.jpg"
+        alt="AlfaRomeo logo"
+      />
+    </div>
+    <div class="name col-9">
+      <h1>Alfa Romeo Sauber</h1>
+    </div>
+  </div>
+  <div class="mainTeam">
+    <div class="team_det">
+      <h3>Team</h3>
+      <p>Meet the team.</p>
+      <div class="teamPrincipal">
+        <h4>Team Principal</h4>
+        <div class="team_img">
+          <img
+            src="../../../assets/Alessandro_Alunni_Bravi_3813162efe.jpg"
+            alt="Alessandro Alunni Bravi"
+          />
+        </div>
+        <p>Alessandro Alunni Bravi</p>
+      </div>
+      <div class="teamDrivers row">
+        <h4>Drivers</h4>
+        <div class="dr1 col">
+          <div class="team_img dr1_img">
+            <img src="../../../assets/f1_2023_vb_alf_lg.png" alt="bottas" />
+          </div>
+          <p>Valteri Bottas</p>
+        </div>
+        <div class="dr2 col">
+          <div class="team_img dr2_img">
+            <img src="../../../assets/f1_2023_gz_alf_lg.png" alt="Zhou" />
+          </div>
+          <p>Zhou Guanyu</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="backgroundInfo">
+    <div class="info">
+      <h3>Background Information</h3>
+      <h5>
+        Alfa Romeo were a household name in Grand Prix racing prior to World War
+        II. The team were regular winners until Mercedes and Auto Union became
+        successful in the mid to late 1930s, at which point Alfa withdrew while
+        still supporting privateers like Enzo Ferrari and his Scuderia Ferrari
+        team.After the war, Alfa dominated the new Formula 1 World Championship
+        from 1946 to 1949, winning every race they entered with the exception of
+        three.
+      </h5>
+      <p>
+        In 1950, Giuseppe Farina won the first World Championship of Drivers in
+        the 158 with a supercharger, winning three of the seven races. Teammate
+        Juan Manuel Fangio, who finished second, took the title the following
+        year.
+      </p>
+      <p>
+        However, Alfa Romeo withdrew from the series in 1952 after facing
+        increased pressure from former employee Ferrari. Alfa was a state-owned
+        company, but decided to withdraw after the Italian government refused to
+        fund the expensive design for their new car.
+      </p>
+      <p>
+        During the 1960s, teams such as LDS, Cooper and De Tomaso all used Alfa
+        Romeo straight-4 engines.
+      </p>
+      <p>
+        Alfa made a brief return in 1970 and 1971 with a V8 engine that appeared
+        in a third works McLaren, though the entry of rent failed to qualify. A
+        similar arrangement was made in a March car in 1971 to similar results.
+      </p>
+      <p>
+        Alfa Romeo wouldn't return to the F1 grid until the 2019 season, when
+        Sauber announced that they would become Alfa Romeo Racing. Unlike
+        Sauber's deal with BMW, the ownership, racing licence and management
+        structure remained unchanged.
+      </p>
+      <p>
+        Kimi Raikkonen and Antonio Giovinazzi were named the team's driving
+        line-up. Giovinazzi managed to lead the Singapore Grand Prix for four
+        laps, the first time that an Alfa Romeo had led an F1 race since De
+        Cesaris back at the 1983 Belgian Grand Prix.
+      </p>
+      <p>
+        The team's best results came at the Brazilian Grand Prix, when Raikkonen
+        and Giovinazzi finished fourth and fifth respectively, helping Alfa
+        Romeo to end the year in eighth place with 57 points.Both drivers
+        returned for the 2020 F1 season but the team took a significant step
+        back, finishing eight in the standings once again, but this time with
+        just eight points. Despite the lack of success, both Raikkonen and
+        Giovinazzi were brought back for the 2021 season.
+      </p>
+      <p>
+        2022 marked the beginning of a new chapter, both in Formula 1 and at
+        Alfa Romeo. Bottas has signed a multi-year deal with the outfit,
+        bringing him the extra security he craved after previously being handed
+        one-year contracts at Mercedes.
+      </p>
+      <p>
+        From the 2024 season onwards, Alfa Romeo won't be the sponsor of Sauber
+        anymore. The team will be named 'Stake F1 Team.' The team name might be
+        adjusted a bit in some Grands Prix because of the local gambling rules
+        to which Stake is related. For example, during, among other events, the
+        Dutch Grand Prix, the team name will be 'Kick F1 Team.'
+      </p>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="statTable">
+      <h3>Statistics</h3>
+      <h5>Statistics about the team</h5>
+      <div class="row champ">
+        <div class="col">Total Constructors Championships</div>
+        <div class="col">
+          <span>0</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openCInfo()"
+          /></span>
+          <div class="CInfoBox" [class.visib]="isvisib_C">
+            <p>-</p>
+          </div>
+        </div>
+      </div>
+      <div class="row driverchamps">
+        <div class="col">Total Drivers Championships</div>
+        <div class="col DInfo">
+          <span>2</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openDInfo()"
+          /></span>
+          <div class="DInfoBox" [class.visib]="isvisib_D">
+            <p>
+              <em> Giuseppe Farina</em> <b> X1</b>(1950),
+              <em> Juan Manuel Fangio</em> <b> X1</b> (1951),
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row wins">
+        <div class="col">Total Race Wins</div>
+        <div class="col">2</div>
+      </div>
+      <div class="row founded">
+        <div class="col">Team Founded</div>
+        <div class="col">1950(Alfa Romeo)/ 1993(Sauber)</div>
+      </div>
+      <div class="row PrevTeam">
+        <div class="col">Previously Known As</div>
+        <div class="col">Sauber F1 team</div>
+      </div>
+    </div>
+  </div>
+  <div class="reachout">
+    <div class="reachoutLinks">
+      <div class="reachTitle RO">
+        <h3>Reach out to Alpha Tauri</h3>
+      </div>
+      <div class="links RO">
+        <a href="https://www.instagram.com/StakeF1Team/?hl=en" target="_blank"
+          ><img src="../../../assets/instagram-1-svgrepo-com.svg" alt="insta"
+        /></a>
+        <a href="https://twitter.com/stakef1team" target="_blank"
+          ><img
+            src="../../../assets/twitter-color-svgrepo-com.svg"
+            alt="twitter"
+        /></a>
+        <a
+          href="https://www.facebook.com/p/Stake-F1-Team-100044502146810/"
+          target="_blank"
+          ><img src="../../../assets/facebook-color-svgrepo-com.svg" alt="fb"
+        /></a>
+        <a href="https://www.sauber-group.com/" target="_blank"
+          ><img
+            src="../../../assets/alfaromeologo.png"
+            alt="website"
+            class="cavalino"
+        /></a>
+      </div>
+    </div>
+  </div>
+</div>
