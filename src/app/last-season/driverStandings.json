@@ -1,0 +1,200 @@
+[
+    {
+        "rank": 1,
+        "country": "Netherlands",
+        "driver": "M. Verstappen",
+        "team": "Red Bull",
+        "points": 575,
+        "wins": 19,
+        "podiums": 21
+    },
+    {
+        "rank": 2,
+        "country": "Mexico",
+        "driver": "S. Pérez",
+        "team": "Red Bull",
+        "points": 285,
+        "wins": 2,
+        "podiums": 9
+    },
+    {
+        "rank": 3,
+        "country": "United Kingdom",
+        "driver": "L. Hamilton",
+        "team": "Mercedes",
+        "points": 234,
+        "wins": 0,
+        "podiums": 6
+    },
+    {
+        "rank": 4,
+        "country": "Spain",
+        "driver": "F. Alonso",
+        "team": "Aston Martin",
+        "points": 206,
+        "wins": 0,
+        "podiums": 8
+    },
+    {
+        "rank": 5,
+        "country": "Monaco",
+        "driver": "C. Leclerc",
+        "team": "Ferrari",
+        "points": 206,
+        "wins": 0,
+        "podiums": 6
+    },
+    {
+        "rank": 6,
+        "country": "United Kingdom",
+        "driver": "L. Norris",
+        "team": "McLaren",
+        "points": 205,
+        "wins": 0,
+        "podiums": 7
+    },
+    {
+        "rank": 7,
+        "country": "Spain",
+        "driver": "C. Sainz Jr.",
+        "team": "Ferrari",
+        "points": 200,
+        "wins": 1,
+        "podiums": 3
+    },
+    {
+        "rank": 8,
+        "country": "United Kingdom",
+        "driver": "G. Russell",
+        "team": "Mercedes",
+        "points": 175,
+        "wins": 0,
+        "podiums": 2
+    },
+    {
+        "rank": 9,
+        "country": "Australia",
+        "driver": "O. Piastri",
+        "team": "McLaren",
+        "points": 97,
+        "wins": 0,
+        "podiums": 2
+    },
+    {
+        "rank": 10,
+        "country": "Canada",
+        "driver": "L. Stroll",
+        "team": "Aston Martin",
+        "points": 74,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 11,
+        "country": "France",
+        "driver": "P. Gasly",
+        "team": "Alpine",
+        "points": 62,
+        "wins": 0,
+        "podiums": 1
+    },
+    {
+        "rank": 12,
+        "country": "France",
+        "driver": "E. Ocon",
+        "team": "Alpine",
+        "points": 58,
+        "wins": 0,
+        "podiums": 1
+    },
+    {
+        "rank": 13,
+        "country": "Thailand",
+        "driver": "A. Albon",
+        "team": "Williams",
+        "points": 27,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 14,
+        "country": "Japan",
+        "driver": "Y. Tsunoda",
+        "team": "AlphaTauri",
+        "points": 17,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 15,
+        "country": "Finland",
+        "driver": "V. Bottas",
+        "team": "Alfa Romeo",
+        "points": 10,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 16,
+        "country": "Germany",
+        "driver": "N. Hülkenberg",
+        "team": "Haas",
+        "points": 9,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 17,
+        "country": "Australia",
+        "driver": "D. Ricciardo",
+        "team": "AlphaTauri",
+        "points": 6,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 18,
+        "country": "China",
+        "driver": "G.Y. Zhou",
+        "team": "Alfa Romeo",
+        "points": 6,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 19,
+        "country": "Denmark",
+        "driver": "K. Magnussen",
+        "team": "Haas",
+        "points": 3,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 20,
+        "country": "New Zealand",
+        "driver": "L. Lawson",
+        "team": "AlphaTauri",
+        "points": 2,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 21,
+        "country": "United States",
+        "driver": "L. Sargeant",
+        "team": "Williams",
+        "points": 1,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 22,
+        "country": "Netherlands",
+        "driver": "N. de Vries",
+        "team": "AlphaTauri",
+        "points": 0,
+        "wins": 0,
+        "podiums": 0
+    }
+]

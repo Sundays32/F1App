@@ -1,25 +1,119 @@
-<div class="lastSeasonBody">
-  <div class="lastSeasonBrief">
-    <h2>2023 Season</h2>
-    <p>
-      The 2023 Formula 1 season was a showcase of Red Bull Racing's dominance,
-      with the team securing both the Constructors' Championship and driver Max
-      Verstappen clinching the Drivers' Championship. Over the course of 23
-      races from March to November, Red Bull Racing consistently outperformed
-      its competitors, with Verstappen delivering a series of impressive
-      victories that underscored his exceptional skill and the team's superior
-      performance. While Ferrari, Mercedes, and McLaren fought hard, with
-      notable podium finishes and race wins, they were unable to challenge Red
-      Bull's overall pace and consistency. The season featured thrilling races
-      and strategic battles at iconic circuits such as Monaco, Silverstone, and
-      Suzuka, adding to the drama and excitement of the championship. Teams
-      continued to innovate with technical developments, particularly in
-      aerodynamics and power units, which played a crucial role in shaping the
-      outcomes. As the season wrapped up, focus shifted to the future, with
-      anticipation building for the next chapter in Formula 1, where teams and
-      drivers will aim to build on their experiences and adapt to new
-      challenges.
-    </p>
+<div class="lastSeason">
+  <div class="lastSeasonBody">
+    <div class="lastSeasonBrief">
+      <h2>2023 Season</h2>
+      <p>
+        The 2023 Formula 1 season was a showcase of Red Bull Racing's dominance,
+        with the team securing both the Constructors' Championship and driver
+        Max Verstappen clinching the Drivers' Championship. Over the course of
+        23 races from March to November, Red Bull Racing consistently
+        outperformed its competitors, with Verstappen delivering a series of
+        impressive victories that underscored his exceptional skill and the
+        team's superior performance. While Ferrari, Mercedes, and McLaren fought
+        hard, with notable podium finishes and race wins, they were unable to
+        challenge Red Bull's overall pace and consistency. The season featured
+        thrilling races and strategic battles at iconic circuits such as Monaco,
+        Silverstone, and Suzuka, adding to the drama and excitement of the
+        championship. Teams continued to innovate with technical developments,
+        particularly in aerodynamics and power units, which played a crucial
+        role in shaping the outcomes. As the season wrapped up, focus shifted to
+        the future, with anticipation building for the next chapter in Formula
+        1, where teams and drivers will aim to build on their experiences and
+        adapt to new challenges.
+      </p>
+    </div>
+    <div class="lastSeasonStandings">
+      <h2>
+        Drivers Championship Results
+        <img
+          src="../../assets/F1Trophy.png"
+          alt="F1 trophy"
+          class="trophyImg"
+        />
+      </h2>
+      <div class="champTable">
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+          <ng-container matColumnDef="rank">
+            <th mat-header-cell *matHeaderCellDef>Standings</th>
+            <td mat-cell *matCellDef="let element">{{ element.rank }}</td>
+          </ng-container>
+          <ng-container matColumnDef="country">
+            <th mat-header-cell *matHeaderCellDef>Country</th>
+            <td mat-cell *matCellDef="let element">{{ element.country }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="driver">
+            <th mat-header-cell *matHeaderCellDef>Champion</th>
+            <td mat-cell *matCellDef="let element">{{ element.driver }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="team">
+            <th mat-header-cell *matHeaderCellDef>Team</th>
+            <td mat-cell *matCellDef="let element">{{ element.team }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="points">
+            <th mat-header-cell *matHeaderCellDef>Points</th>
+            <td mat-cell *matCellDef="let element">{{ element.points }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="wins">
+            <th mat-header-cell *matHeaderCellDef>Wins</th>
+            <td mat-cell *matCellDef="let element">{{ element.wins }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="podiums">
+            <th mat-header-cell *matHeaderCellDef>Podiums</th>
+            <td mat-cell *matCellDef="let element">{{ element.podiums }}</td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </table>
+      </div>
+      <h2>
+        Constructors Championship Results
+        <img
+          src="../../assets/F1Trophy.png"
+          alt="F1 trophy"
+          class="trophyImg"
+        />
+      </h2>
+      <div class="constChampTable">
+        <table
+          mat-table
+          [dataSource]="dataSourceConstChamp"
+          class="mat-elevation-z8"
+        >
+          <ng-container matColumnDef="rank">
+            <th mat-header-cell *matHeaderCellDef>Standings</th>
+            <td mat-cell *matCellDef="let element">{{ element.rank }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="team">
+            <th mat-header-cell *matHeaderCellDef>Team</th>
+            <td mat-cell *matCellDef="let element">{{ element.team }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="points">
+            <th mat-header-cell *matHeaderCellDef>Points</th>
+            <td mat-cell *matCellDef="let element">{{ element.points }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="wins">
+            <th mat-header-cell *matHeaderCellDef>Wins</th>
+            <td mat-cell *matCellDef="let element">{{ element.wins }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="podiums">
+            <th mat-header-cell *matHeaderCellDef>Podiums</th>
+            <td mat-cell *matCellDef="let element">{{ element.podiums }}</td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumnsConst"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumnsConst"></tr>
+        </table>
+      </div>
+    </div>
   </div>
-  <div class="lastSeasonStandings"></div>
 </div>
