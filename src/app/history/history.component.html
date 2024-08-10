@@ -1,0 +1,141 @@
+<div class="pageBody">
+  <div class="historyBody">
+    <div class="genHistoryBlock row">
+      <span class="genHistory hist col">
+        <h2 class="histTitle">The History of Formula One Racing</h2>
+        <p>
+          Formula One is the highest class of international racing for
+          open-wheel single-seater formula racing cars sanctioned by the
+          Fédération Internationale de l'Automobile. It is a sport that has
+          evolved over seven decades to become a global phenomenon. With its
+          high-speed thrills and intense rivalries, it has become synonymous
+          with adrenaline and glamour. F1 has a history steeped in innovation,
+          competition, and drama. The upcoming Las Vegas race is poised to add
+          another chapter to Formula One's storied history. Las Vegas, known for
+          its vibrant atmosphere and iconic landmarks, is set to host a race
+          that promises to be a spectacle both on and off the track. The city's
+          dazzling lights and energetic ambiance will provide a unique backdrop
+          for the intense competition that F1 is renowned for.
+        </p>
+        <h5>The Pre-Formula One Era</h5>
+        <p>
+          In the early 20th century, motorsports were still in their infancy.
+          Automobile pioneers pushed the boundaries of speed, competing in races
+          across the globe. These races were a test of skill and endurance, with
+          drivers navigating treacherous roads and confronting various
+          obstacles. One of the most famous races of this era was the Targa
+          Florio in 1906, held in Sicily, Italy. This grueling endurance race
+          challenged drivers to navigate a 92-mile circuit through the rugged
+          terrain of the Madonie Mountains. With hairpin turns, steep inclines,
+          and unpredictable weather conditions, the Targa Florio demanded not
+          only speed but also exceptional driving skills and mechanical
+          reliability. Another iconic event of the pre-Formula One era was the
+          Indianapolis 500, first held in 1911. This legendary oval race in the
+          United States attracted the best drivers from around the world, all
+          vying for the prestigious Borg-Warner Trophy.
+        </p>
+        <h5>The Inception of an Official Championship</h5>
+        <p>
+          Formula One traces its roots to the mid-20th century. In the aftermath
+          of World War II, Europe's passion for motor racing was rekindled, and
+          various forms of racing began to take shape. However, it was the
+          Fédération Internationale de l'Automobile (FIA) that officially laid
+          the foundation for the sport with the inception of the Formula One
+          World Championship in 1950. The inaugural season saw a mere seven
+          races held in Europe, with Italy's Giuseppe Farina clinching the
+          championship for Alfa Romeo. The cars were rudimentary, and safety
+          concerns were far from the forefront. Nevertheless, the sport was
+          born, and a passion was ignited. As the years went by, F1 evolved and
+          grew in popularity. Legendary drivers like Juan Manuel Fangio, Ayrton
+          Senna, and Michael Schumacher became household names, captivating
+          audiences with their skill, bravery, and determination. The sport
+          became a global phenomenon, with races held on iconic circuits such as
+          Monza, Monaco, and Suzuka.
+        </p>
+        <h5>The Early Days of F1</h5>
+        <p>
+          The 1950s and 1960s marked a period of rapid evolution in Formula One.
+          The sport's early heroes, including Alberto Ascari, Juan Manuel
+          Fangio, and Stirling Moss, showcased their skill behind the wheel of
+          sleek, cigar-shaped machines. Teams like Ferrari, Mercedes, and Lotus
+          pushed the boundaries of engineering, introducing innovations like
+          disc brakes and monocoque chassis. Racing legends like Jim Clark and
+          Graham Hill emerged as the sport expanded beyond its European
+          heartland. One of the defining moments of this era was the rivalry
+          between Ferrari and Ford, immortalized in the film ‘Ford v Ferrari.’
+          This battle for supremacy at the 24 Hours of Le Mans showcased the
+          sheer determination of teams and drivers, pushing them to the limits
+          of endurance.
+        </p>
+      </span>
+      <span class="trophyImgBanner hist col">
+        <img src="../../assets/F1Trophy.png" alt="trophy" width="600px" />
+      </span>
+    </div>
+    <div class="pastChamps">
+      <h2>
+        Past Drivers Champions
+        <img
+          src="../../assets/F1Trophy.png"
+          alt="F1 trophy"
+          class="trophyImg"
+        />
+      </h2>
+      <div class="champTable">
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+          <ng-container matColumnDef="year">
+            <th mat-header-cell *matHeaderCellDef>Year</th>
+            <td mat-cell *matCellDef="let element">{{ element.year }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="driver">
+            <th mat-header-cell *matHeaderCellDef>Champion</th>
+            <td mat-cell *matCellDef="let element">{{ element.driver }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="team">
+            <th mat-header-cell *matHeaderCellDef>Team</th>
+            <td mat-cell *matCellDef="let element">{{ element.team }}</td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </table>
+      </div>
+    </div>
+    <div class="pastConstChamps">
+      <h2>
+        Past Constructors Champions
+        <img
+          src="../../assets/F1Trophy.png"
+          alt="F1 trophy"
+          class="trophyImg"
+        />
+      </h2>
+      <div class="constChampTable">
+        <table
+          mat-table
+          [dataSource]="dataSourceConstChamp"
+          class="mat-elevation-z8"
+        >
+          <ng-container matColumnDef="year">
+            <th mat-header-cell *matHeaderCellDef>Year</th>
+            <td mat-cell *matCellDef="let element">{{ element.year }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="team">
+            <th mat-header-cell *matHeaderCellDef>Team</th>
+            <td mat-cell *matCellDef="let element">{{ element.team }}</td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumnsConst"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumnsConst"></tr>
+        </table>
+      </div>
+    </div>
+    <p class="note">
+      Source:
+      https://feature.com/blogs/feature-sneaker-boutique/the-history-of-formula-one-racing
+    </p>
+  </div>
+</div>

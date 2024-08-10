@@ -1,0 +1,47 @@
+$background: url(../../assets/F1Trophy.png);
+$background_color:#eaeaea;
+
+.historyBody{
+    padding-top: 150px;
+    .genHistory{
+        padding: 50px 150px;
+    }
+    .pastConstChamps, .pastChamps{
+        padding: 50px 250px;
+    }
+    .champTable, .constChampTable{
+        padding-top: 20px;
+    }
+    h2, h5{
+        color: red;
+    }
+    p{
+        color: black;
+    }
+    
+    .constChampTable{
+        .mat-column-year, .mat-column-team{
+            width: 50%;
+        } 
+        
+    }
+    .champTable{
+        .mat-column-year, .mat-column-team, .mat-column-driver{
+            width: 33%;
+        }
+    }
+    .trophyImg{
+        width: 80px;
+        height: 100px;
+    }
+    .trophyImgBanner{
+        padding: 150px 50px;
+    }
+}
+table{
+    background: transparent;
+}
+.pageBody{
+    background-color: $background_color;
+    
+}
