@@ -18,6 +18,10 @@ import { WilliamsComponent } from './teams/williams/williams.component';
 import { AlphaTauriComponent } from './teams/alpha-tauri/alpha-tauri.component';
 import { AlfaRomeoComponent } from './teams/alfa-romeo/alfa-romeo.component';
 import { HaasComponent } from './teams/haas/haas.component';
+import { HistoryComponent } from './history/history.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTableModule } from '@angular/material/table';
+import { LastSeasonComponent } from './last-season/last-season.component';
 
 @NgModule({
   declarations: [
@@ -35,12 +39,16 @@ import { HaasComponent } from './teams/haas/haas.component';
     WilliamsComponent,
     AlphaTauriComponent,
     AlfaRomeoComponent,
-    HaasComponent
+    HaasComponent,
+    HistoryComponent,
+    LastSeasonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterOutlet
+    RouterOutlet,
+    BrowserAnimationsModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
