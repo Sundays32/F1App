@@ -22,6 +22,8 @@ import { HistoryComponent } from './history/history.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { LastSeasonComponent } from './last-season/last-season.component';
+import { CurrentSeasonComponent } from './current-season/current-season.component';
+import { RumourComponent } from './rumour/rumour.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { LastSeasonComponent } from './last-season/last-season.component';
     AlfaRomeoComponent,
     HaasComponent,
     HistoryComponent,
-    LastSeasonComponent
+    LastSeasonComponent,
+    CurrentSeasonComponent,
+    RumourComponent
   ],
   imports: [
     BrowserModule,

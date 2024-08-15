@@ -14,12 +14,16 @@ import { AstonMartinComponent } from './teams/aston-martin/aston-martin.componen
 import { MclarenComponent } from './teams/mclaren/mclaren.component';
 import { FerrariComponent } from './teams/ferrari/ferrari.component';
 import { LastSeasonComponent } from './last-season/last-season.component';
+import { CurrentSeasonComponent } from './current-season/current-season.component';
+import { RumourComponent } from './rumour/rumour.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'landing-page', pathMatch:'full'},
   { path: 'landing-page', component: LandingPageComponent },
   { path: 'history', component: HistoryComponent },
   { path: 'last-season', component: LastSeasonComponent },
+  { path: 'current-season', component: CurrentSeasonComponent },
+  { path: 'rumour', component: RumourComponent },
   { path: 'teams-page', component: TeamsComponent },
   { path: 'RedBull', component: RedbullComponent },
   { path: 'Mercedes', component: MercedesComponent },

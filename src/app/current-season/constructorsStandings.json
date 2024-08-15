@@ -1,0 +1,72 @@
+[
+    {
+        "rank": 1,
+        "team": "Red Bull",
+        "points": 408,
+        "wins": 7,
+        "podiums": 13
+    },
+    {
+        "rank": 2,
+        "team": "McLaren",
+        "points": 366,
+        "wins": 2,
+        "podiums": 12
+    },
+    {
+        "rank": 3,
+        "team": "Ferrari",
+        "points": 345,
+        "wins": 2,
+        "podiums": 11
+    },
+    {
+        "rank": 4,
+        "team": "Mercedes",
+        "points": 266,
+        "wins": 3,
+        "podiums": 6
+    },
+    {
+        "rank": 5,
+        "team": "Aston Martin",
+        "points": 73,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 6,
+        "team": "RB",
+        "points": 34,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 7,
+        "team": "Haas",
+        "points": 27,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 8,
+        "team": "Alpine",
+        "points": 11,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 9,
+        "team": "Williams",
+        "points": 4,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 10,
+        "team": "Kick Sauber",
+        "points": 0,
+        "wins": 0,
+        "podiums": 0
+    }
+]

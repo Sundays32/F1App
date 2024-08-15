@@ -1,0 +1,191 @@
+[
+    {
+        "rank": 1,
+        "country": "Netherlands",
+        "driver": "M. Verstappen",
+        "team": "Red Bull",
+        "points": 277,
+        "wins": 7,
+        "podiums": 9
+    },
+    {
+        "rank": 2,
+        "country": "United Kingdom",
+        "driver": "L. Norris",
+        "team": "McLaren",
+        "points": 199,
+        "wins": 1,
+        "podiums": 8
+    },
+    {
+        "rank": 3,
+        "country": "Monaco",
+        "driver": "C. Leclerc",
+        "team": "Ferrari",
+        "points": 177,
+        "wins": 1,
+        "podiums": 6
+    },
+    {
+        "rank": 4,
+        "country": "Australia",
+        "driver": "O. Piastri",
+        "team": "McLaren",
+        "points": 167,
+        "wins": 1,
+        "podiums": 4
+    },
+    {
+        "rank": 5,
+        "country": "Spain",
+        "driver": "C. Sainz Jr.",
+        "team": "Ferrari",
+        "points": 162,
+        "wins": 1,
+        "podiums": 5
+    },
+    {
+        "rank": 6,
+        "country": "United Kingdom",
+        "driver": "L. Hamilton",
+        "team": "Mercedes",
+        "points": 150,
+        "wins": 2,
+        "podiums": 4
+    },
+    {
+        "rank": 7,
+        "country": "Mexico",
+        "driver": "S. Pérez",
+        "team": "Red Bull",
+        "points": 131,
+        "wins": 0,
+        "podiums": 4
+    },
+    {
+        "rank": 8,
+        "country": "United Kingdom",
+        "driver": "G. Russell",
+        "team": "Mercedes",
+        "points": 116,
+        "wins": 1,
+        "podiums": 2
+    },
+    {
+        "rank": 9,
+        "country": "Spain",
+        "driver": "F. Alonso",
+        "team": "Aston Martin",
+        "points": 49,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 10,
+        "country": "Canada",
+        "driver": "L. Stroll",
+        "team": "Aston Martin",
+        "points": 24,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 11,
+        "country": "Germany",
+        "driver": "N. Hülkenberg",
+        "team": "Haas",
+        "points": 22,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 12,
+        "country": "Japan",
+        "driver": "Y. Tsunoda",
+        "team": "RB",
+        "points": 22,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 13,
+        "country": "Australia",
+        "driver": "D. Ricciardo",
+        "team": "RB",
+        "points": 12,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 14,
+        "country": "United Kingdom",
+        "driver": "O. Bearman",
+        "team": "Ferrari",
+        "points": 6,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 15,
+        "country": "France",
+        "driver": "P. Gasly",
+        "team": "Alpine",
+        "points": 6,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 16,
+        "country": "Denmark",
+        "driver": "K. Magnussen",
+        "team": "Haas",
+        "points": 5,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 17,
+        "country": "France",
+        "driver": "E. Ocon",
+        "team": "Alpine",
+        "points": 5,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 18,
+        "country": "Thailand",
+        "driver": "A. Albon",
+        "team": "Williams",
+        "points": 4,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 19,
+        "country": "China",
+        "driver": "G.Y. Zhou",
+        "team": "Kick Sauber",
+        "points": 0,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 20,
+        "country": "United States",
+        "driver": "L. Sargeant",
+        "team": "Williams",
+        "points": 0,
+        "wins": 0,
+        "podiums": 0
+    },
+    {
+        "rank": 21,
+        "country": "Finland",
+        "driver": "V. Bottas",
+        "team": "Kick Sauber",
+        "points": 0,
+        "wins": 0,
+        "podiums": 0
+    }
+]
