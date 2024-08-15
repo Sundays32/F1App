@@ -1,0 +1,24 @@
+.currentSeason{
+    padding-top: 150px;
+    .currentSeasonBody{
+        padding: 50px 150px;
+        .currentSeasonStandings{
+            h2{
+                padding: 50px 0;
+            }
+            .champTable{
+                .mat-column-rank, .mat-column-country, .mat-column-driver,.mat-column-team, .mat-column-wins, .mat-column-points, .mat-column-podiums{
+                    width: 100%/7;
+                }
+            }
+            .constChampTable{
+                .mat-column-rank, .mat-column-team, .mat-column-wins, .mat-column-points, .mat-column-podiums{
+                    width: 100%/5;
+                }
+            }
+        }
+    }
+}
+.trophyImg{
+    width: 80px;
+}

@@ -1,0 +1,121 @@
+<div class="currentSeason">
+  <div class="currentSeasonBody">
+    <div class="currentSeasonBrief">
+      <h2>2024 Season</h2>
+      <p>
+        The 2024 Formula 1 season was a thrilling spectacle of speed, strategy,
+        and standout performances. Max Verstappen of Red Bull Racing dominated
+        the championship, securing his position as the driver to beat with an
+        impressive tally of 277 points, 7 wins, and 9 podium finishes. McLaren's
+        Lando Norris proved a formidable challenger, finishing second with 199
+        points, although his lone win was not enough to surpass Verstappen.
+        Charles Leclerc of Ferrari rounded out the top three, showcasing
+        consistent performance with 177 points and 1 win. Despite a strong
+        season from the top contenders, the season also highlighted the
+        resurgence of Mercedes, with Lewis Hamilton and George Russell
+        delivering competitive results. Aston Martin and Ferrari demonstrated
+        their potential, though neither could match the relentless pace of Red
+        Bull. Teams like Haas, Alpine, and Williams struggled throughout the
+        season, while newcomers and underdogs made for compelling storylines.
+        The 2024 season solidified Verstappen's reputation and set the stage for
+        an exciting future in F1, with teams and drivers already gearing up for
+        the next chapter in their racing careers.
+      </p>
+    </div>
+    <div class="currentSeasonStandings">
+      <h2>
+        Drivers Championship Results
+        <img
+          src="../../assets/F1Trophy.png"
+          alt="F1 trophy"
+          class="trophyImg"
+        />
+      </h2>
+      <p>* Data is as of 15th Aug 2024, till Belgian GP</p>
+      <div class="champTable">
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+          <ng-container matColumnDef="rank">
+            <th mat-header-cell *matHeaderCellDef>Standings</th>
+            <td mat-cell *matCellDef="let element">{{ element.rank }}</td>
+          </ng-container>
+          <ng-container matColumnDef="country">
+            <th mat-header-cell *matHeaderCellDef>Country</th>
+            <td mat-cell *matCellDef="let element">{{ element.country }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="driver">
+            <th mat-header-cell *matHeaderCellDef>Champion</th>
+            <td mat-cell *matCellDef="let element">{{ element.driver }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="team">
+            <th mat-header-cell *matHeaderCellDef>Team</th>
+            <td mat-cell *matCellDef="let element">{{ element.team }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="points">
+            <th mat-header-cell *matHeaderCellDef>Points</th>
+            <td mat-cell *matCellDef="let element">{{ element.points }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="wins">
+            <th mat-header-cell *matHeaderCellDef>Wins</th>
+            <td mat-cell *matCellDef="let element">{{ element.wins }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="podiums">
+            <th mat-header-cell *matHeaderCellDef>Podiums</th>
+            <td mat-cell *matCellDef="let element">{{ element.podiums }}</td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </table>
+      </div>
+      <h2>
+        Constructors Championship Results
+        <img
+          src="../../assets/F1Trophy.png"
+          alt="F1 trophy"
+          class="trophyImg"
+        />
+      </h2>
+      <p>* Data is as of 15th Aug 2024, till Belgian GP</p>
+      <div class="constChampTable">
+        <table
+          mat-table
+          [dataSource]="dataSourceConstChamp"
+          class="mat-elevation-z8"
+        >
+          <ng-container matColumnDef="rank">
+            <th mat-header-cell *matHeaderCellDef>Standings</th>
+            <td mat-cell *matCellDef="let element">{{ element.rank }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="team">
+            <th mat-header-cell *matHeaderCellDef>Team</th>
+            <td mat-cell *matCellDef="let element">{{ element.team }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="points">
+            <th mat-header-cell *matHeaderCellDef>Points</th>
+            <td mat-cell *matCellDef="let element">{{ element.points }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="wins">
+            <th mat-header-cell *matHeaderCellDef>Wins</th>
+            <td mat-cell *matCellDef="let element">{{ element.wins }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="podiums">
+            <th mat-header-cell *matHeaderCellDef>Podiums</th>
+            <td mat-cell *matCellDef="let element">{{ element.podiums }}</td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumnsConst"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumnsConst"></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
